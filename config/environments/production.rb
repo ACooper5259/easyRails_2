@@ -1,4 +1,5 @@
 Rails.application.configure do
+  # see line 65 for app url
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -61,6 +62,8 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "easyRails_production"
 
   config.action_mailer.perform_caching = false
+  # devise productyion environment url
+  # config.action_mailer.default_url_options = { host: 'vtra-easy-rider.herokuapp.com/' }
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
