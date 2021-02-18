@@ -35,6 +35,7 @@ gem 'sassc-rails', '>= 2.1.0'
 gem "font-awesome-sass"
 gem "simple_form"
 gem "autoprefixer-rails"
+gem 'trix-rails', require: 'trix'
 
 
 
